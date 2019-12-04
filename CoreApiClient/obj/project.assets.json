@@ -242,11 +242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\CoreApiClient\\CoreApiClient.csproj",
+      "projectUniqueName": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\CoreApiClient\\CoreApiClient.csproj",
       "projectName": "CoreApiClient",
-      "projectPath": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\CoreApiClient\\CoreApiClient.csproj",
+      "projectPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\CoreApiClient\\CoreApiClient.csproj",
       "packagesPath": "C:\\Users\\ethansimson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\CoreApiClient\\obj\\",
+      "outputPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\CoreApiClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -266,8 +266,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\OverwatchApi\\OverwatchApi.csproj": {
-              "projectPath": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\OverwatchApi\\OverwatchApi.csproj"
+            "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\OverwatchApi\\OverwatchApi.csproj": {
+              "projectPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\OverwatchApi\\OverwatchApi.csproj"
             }
           }
         }

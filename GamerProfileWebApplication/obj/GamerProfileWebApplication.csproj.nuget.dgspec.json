@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\TestCoreWebApplication\\GamerProfileWebApplication.csproj": {}
+    "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\TestCoreWebApplication\\GamerProfileWebApplication.csproj": {
+    "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\TestCoreWebApplication\\GamerProfileWebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj",
         "projectName": "GamerProfileWebApplication",
-        "projectPath": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\TestCoreWebApplication\\GamerProfileWebApplication.csproj",
+        "projectPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj",
         "packagesPath": "C:\\Users\\ethansimson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\TestCoreWebApplication\\obj\\",
+        "outputPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

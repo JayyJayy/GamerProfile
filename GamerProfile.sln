@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerProfileWebApplication", "TestCoreWebApplication\GamerProfileWebApplication.csproj", "{1964646A-F997-4446-889D-1E8A92066698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchApi", "OverwatchApi\OverwatchApi.csproj", "{70957717-2BDC-4C08-ADC8-678532435011}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchApiTests", "CoreWebApplicationTests\OverwatchApiTests.csproj", "{D7061633-8F4F-4A9C-8809-AE88FE6A6373}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApiClient", "CoreApiClient\CoreApiClient.csproj", "{602C80EA-BB20-49D2-967C-00386F6F7416}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverwatchApi", "OverwatchApi\OverwatchApi.csproj", "{70957717-2BDC-4C08-ADC8-678532435011}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchApiTests", "OverwatchApiTests\OverwatchApiTests.csproj", "{C605B8EF-4BEA-41B6-A87D-E8A7243701AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreApiClient", "CoreApiClient\CoreApiClient.csproj", "{602C80EA-BB20-49D2-967C-00386F6F7416}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerProfileWebApplication", "GamerProfileWebApplication\GamerProfileWebApplication.csproj", "{5D7382E6-CB4C-4626-A041-1B7573C98DCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1964646A-F997-4446-889D-1E8A92066698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1964646A-F997-4446-889D-1E8A92066698}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1964646A-F997-4446-889D-1E8A92066698}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1964646A-F997-4446-889D-1E8A92066698}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7061633-8F4F-4A9C-8809-AE88FE6A6373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7061633-8F4F-4A9C-8809-AE88FE6A6373}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7061633-8F4F-4A9C-8809-AE88FE6A6373}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7061633-8F4F-4A9C-8809-AE88FE6A6373}.Release|Any CPU.Build.0 = Release|Any CPU
 		{70957717-2BDC-4C08-ADC8-678532435011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{70957717-2BDC-4C08-ADC8-678532435011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70957717-2BDC-4C08-ADC8-678532435011}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +25,14 @@ Global
 		{602C80EA-BB20-49D2-967C-00386F6F7416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{602C80EA-BB20-49D2-967C-00386F6F7416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{602C80EA-BB20-49D2-967C-00386F6F7416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C605B8EF-4BEA-41B6-A87D-E8A7243701AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C605B8EF-4BEA-41B6-A87D-E8A7243701AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C605B8EF-4BEA-41B6-A87D-E8A7243701AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C605B8EF-4BEA-41B6-A87D-E8A7243701AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7382E6-CB4C-4626-A041-1B7573C98DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7382E6-CB4C-4626-A041-1B7573C98DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7382E6-CB4C-4626-A041-1B7573C98DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7382E6-CB4C-4626-A041-1B7573C98DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

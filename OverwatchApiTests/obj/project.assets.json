@@ -9376,8 +9376,8 @@
     },
     "GamerProfileWebApplication/1.0.0": {
       "type": "project",
-      "path": "../TestCoreWebApplication/GamerProfileWebApplication.csproj",
-      "msbuildProject": "../TestCoreWebApplication/GamerProfileWebApplication.csproj"
+      "path": "../GamerProfileWebApplication/GamerProfileWebApplication.csproj",
+      "msbuildProject": "../GamerProfileWebApplication/GamerProfileWebApplication.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9396,11 +9396,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\CoreWebApplicationTests\\OverwatchApiTests.csproj",
+      "projectUniqueName": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\OverwatchApiTests\\OverwatchApiTests.csproj",
       "projectName": "OverwatchApiTests",
-      "projectPath": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\CoreWebApplicationTests\\OverwatchApiTests.csproj",
+      "projectPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\OverwatchApiTests\\OverwatchApiTests.csproj",
       "packagesPath": "C:\\Users\\ethansimson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\CoreWebApplicationTests\\obj\\",
+      "outputPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\OverwatchApiTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9420,8 +9420,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\TestCoreWebApplication\\GamerProfileWebApplication.csproj": {
-              "projectPath": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\TestCoreWebApplication\\GamerProfileWebApplication.csproj"
+            "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj": {
+              "projectPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj"
             }
           }
         }

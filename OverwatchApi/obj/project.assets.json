@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\OverwatchApi\\OverwatchApi.csproj",
+      "projectUniqueName": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\OverwatchApi\\OverwatchApi.csproj",
       "projectName": "OverwatchApi",
-      "projectPath": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\OverwatchApi\\OverwatchApi.csproj",
+      "projectPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\OverwatchApi\\OverwatchApi.csproj",
       "packagesPath": "C:\\Users\\ethansimson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ethansimson\\source\\repos\\TestCoreWebApplication\\OverwatchApi\\obj\\",
+      "outputPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\OverwatchApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
