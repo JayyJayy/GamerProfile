@@ -1,0 +1,5 @@
+C:\Users\ethansimson\source\repos\TestCoreWebApplication\CoreApiClient\bin\Debug\netstandard2.0\CoreApiClient.deps.json
+C:\Users\ethansimson\source\repos\TestCoreWebApplication\CoreApiClient\bin\Debug\netstandard2.0\CoreApiClient.dll
+C:\Users\ethansimson\source\repos\TestCoreWebApplication\CoreApiClient\obj\Debug\netstandard2.0\CoreApiClient.csprojAssemblyReference.cache
+C:\Users\ethansimson\source\repos\TestCoreWebApplication\CoreApiClient\obj\Debug\netstandard2.0\CoreApiClient.AssemblyInfoInputs.cache
+C:\Users\ethansimson\source\repos\TestCoreWebApplication\CoreApiClient\obj\Debug\netstandard2.0\CoreApiClient.AssemblyInfo.cs
