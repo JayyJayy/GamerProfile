@@ -56,8 +56,7 @@ namespace CoreApiClient
         private Uri CreateRequestUri(string relativePath, string queryString = "")
         {
             var endpoint = new Uri(BaseEndpoint, relativePath);
-            var uriBuilder = new UriBuilder(endpoint);
-            uriBuilder.Query = queryString;
+            var uriBuilder = new UriBuilder(endpoint) {Query = queryString};
             return uriBuilder.Uri;
         }
 

@@ -6,11 +6,11 @@ namespace CoreApiClient
 {
     public partial class ApiClient
     {
-        public async Task<List<UserModel>> GetUsers()
+        public async Task<Profile> GetProfile(UserModel user)
         {
             var requestUrl = CreateRequestUri(string.Format(System.Globalization.CultureInfo.InvariantCulture,
-                "User/GetAllUsers"));
-            return await GetAsync<List<UserModel>>(requestUrl);
+                $"profile/{user.Platform}/{user.Region}/{user.Name}"));
+            return await GetAsync<Profile>(requestUrl);
         }
     }
 }
