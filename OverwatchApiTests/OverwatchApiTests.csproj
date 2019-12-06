@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CoreApiClient\CoreApiClient.csproj" />
     <ProjectReference Include="..\GamerProfileWebApplication\GamerProfileWebApplication.csproj" />
+    <ProjectReference Include="..\OverwatchApi\OverwatchApi.csproj" />
   </ItemGroup>
 
 </Project>
