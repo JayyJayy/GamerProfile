@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Globalization;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace CoreApiClient
 {
@@ -30,7 +32,15 @@ namespace CoreApiClient
             var response = await _httpClient.GetAsync(requestUrl, HttpCompletionOption.ResponseHeadersRead);
             response.EnsureSuccessStatusCode();
             var data = await response.Content.ReadAsStringAsync();
-            return JsonConvert.DeserializeObject<T>(data);
+            var settings = new JsonSerializerSettings{
+                MetadataPropertyHandling = MetadataPropertyHandling.Ignore,
+                DateParseHandling = DateParseHandling.None,
+                Converters =
+                {
+                    new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
+                }
+            };
+            return JsonConvert.DeserializeObject<T>(data, settings);
         }
 
         /// <summary>  

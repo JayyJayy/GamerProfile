@@ -1,8 +1,13 @@
-﻿namespace OverwatchApi.Objects
+﻿using Newtonsoft.Json;
+
+namespace OverwatchApi.Objects
 {
     public class Games
     {
-        public int QuickPlayWon { get; set; }
-        public Comp Comp { get; set; }
+        [JsonProperty("quickplay", NullValueHandling = NullValueHandling.Ignore)]
+        public Quickplay Quickplay { get; set; }
+
+        [JsonProperty("competitive", NullValueHandling = NullValueHandling.Ignore)]
+        public Comp Competitive { get; set; }
     }
 }

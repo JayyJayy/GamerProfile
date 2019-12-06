@@ -2,13 +2,13 @@
 {
     public class UserModel
     {
-        public string Platform { get; set; }
-        public string Region { get; set; }
-
-        public string Name
+        public string PlatformSelect { get; set; }
+        public string RegionSelect { get; set; }
+        private string _name;
+        public string UserName
         {
-            get;
-            set { Name = Name.Replace('#', '-'); }
+            get => _name;
+            set => _name = value.Replace("#", "-");
         }
     }
 }

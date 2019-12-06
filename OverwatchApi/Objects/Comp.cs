@@ -1,11 +1,22 @@
-﻿namespace OverwatchApi.Objects
+﻿using Newtonsoft.Json;
+
+namespace OverwatchApi.Objects
 {
     public class Comp
     {
-        public int Won { get; set; }
-        public int Lost { get; set; }
-        public int Draw { get; set; }
-        public int Played { get; set; }
-        public double Ratio { get; set; }
+        [JsonProperty("won", NullValueHandling = NullValueHandling.Ignore)]
+        public long? Won { get; set; }
+
+        [JsonProperty("lost", NullValueHandling = NullValueHandling.Ignore)]
+        public long? Lost { get; set; }
+
+        [JsonProperty("draw", NullValueHandling = NullValueHandling.Ignore)]
+        public long? Draw { get; set; }
+
+        [JsonProperty("played", NullValueHandling = NullValueHandling.Ignore)]
+        public long? Played { get; set; }
+
+        [JsonProperty("win_rate")]
+        public object WinRate { get; set; }
     }
 }

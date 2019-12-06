@@ -201,3 +201,10 @@ C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\obj\Debug\netco
 C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\obj\Debug\netcoreapp3.0\OverwatchApiTests.csproj.CopyComplete
 C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\obj\Debug\netcoreapp3.0\OverwatchApiTests.dll
 C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\obj\Debug\netcoreapp3.0\OverwatchApiTests.pdb
+C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\bin\Debug\netcoreapp3.0\CoreApiClient.dll
+C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\bin\Debug\netcoreapp3.0\OverwatchApi.dll
+C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\bin\Debug\netcoreapp3.0\CoreApiClient.pdb
+C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApiTests\bin\Debug\netcoreapp3.0\OverwatchApi.pdb
