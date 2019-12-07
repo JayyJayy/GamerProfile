@@ -1,0 +1,17 @@
+﻿@model OverwatchLibrary.Models.ProfileModel
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Overwatch stats for @(Model.Username)</h1>
+        </div>
+        <div class="col">
+            <img src="@Url.Content(Convert.ToString(Model.Portrait))" width="100px" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h3>Level: @(Model.Level)</h3>
+        </div>
+    </div>
+</div>

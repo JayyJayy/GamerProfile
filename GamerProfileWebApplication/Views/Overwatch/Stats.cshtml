@@ -1,0 +1,21 @@
+﻿@model OverwatchLibrary.Models.ProfileModel
+
+@{
+    ViewData["Title"] = "Stats";
+}
+
+@(await Html.PartialAsync("Partials/_BaseStats", Model))
+
+@{
+    if (!Model.Private)
+    {
+
+    }
+    else
+    {
+        <h2>Your profile is set to private to see stats please make it public.</h2>
+    }
+}
+
+
+

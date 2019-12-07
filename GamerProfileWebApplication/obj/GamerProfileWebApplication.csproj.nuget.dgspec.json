@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj": {}
+    "D:\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj": {
+    "D:\\GamerProfile\\CoreApiLibrary\\CoreApiLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj",
-        "projectName": "GamerProfileWebApplication",
-        "projectPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj",
-        "packagesPath": "C:\\Users\\ethansimson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ethansimson\\source\\repos\\GamerProfile\\GamerProfileWebApplication\\obj\\",
+        "projectUniqueName": "D:\\GamerProfile\\CoreApiLibrary\\CoreApiLibrary.csproj",
+        "projectName": "CoreApiLibrary",
+        "projectPath": "D:\\GamerProfile\\CoreApiLibrary\\CoreApiLibrary.csproj",
+        "packagesPath": "C:\\Users\\JayyJ\\.nuget\\packages\\",
+        "outputPath": "D:\\GamerProfile\\CoreApiLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ethansimson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JayyJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,12 +25,77 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://centr0dev.pkgs.visualstudio.com/_packaging/WmcaNuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj": {
+                "projectPath": "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj",
+        "projectName": "GamerProfileWebApplication",
+        "projectPath": "D:\\GamerProfile\\GamerProfileWebApplication\\GamerProfileWebApplication.csproj",
+        "packagesPath": "C:\\Users\\JayyJ\\.nuget\\packages\\",
+        "outputPath": "D:\\GamerProfile\\GamerProfileWebApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JayyJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\GamerProfile\\CoreApiLibrary\\CoreApiLibrary.csproj": {
+                "projectPath": "D:\\GamerProfile\\CoreApiLibrary\\CoreApiLibrary.csproj"
+              },
+              "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj": {
+                "projectPath": "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -42,6 +107,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.0.1, )"
@@ -79,7 +148,68 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj",
+        "projectName": "OverwatchLibrary",
+        "projectPath": "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj",
+        "packagesPath": "C:\\Users\\JayyJ\\.nuget\\packages\\",
+        "outputPath": "D:\\GamerProfile\\OverwatchLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JayyJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

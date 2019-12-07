@@ -1,9 +1,9 @@
 using System;
 using Xunit;
 using CoreApiClient;
-using OverwatchApi.Models;
+using OverwatchLibrary.Models;
 
-namespace OverwatchApiTests
+namespace OverwatchLibraryTests
 {
     public class ProfileTests
     {

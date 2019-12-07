@@ -1,8 +1,0 @@
-C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApi\bin\Debug\netstandard2.0\OverwatchApi.deps.json
-C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApi\bin\Debug\netstandard2.0\OverwatchApi.dll
-C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApi\bin\Debug\netstandard2.0\OverwatchApi.pdb
-C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApi\obj\Debug\netstandard2.0\OverwatchApi.csprojAssemblyReference.cache
-C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApi\obj\Debug\netstandard2.0\OverwatchApi.AssemblyInfoInputs.cache
-C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApi\obj\Debug\netstandard2.0\OverwatchApi.AssemblyInfo.cs
-C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApi\obj\Debug\netstandard2.0\OverwatchApi.dll
-C:\Users\ethansimson\source\repos\GamerProfile\OverwatchApi\obj\Debug\netstandard2.0\OverwatchApi.pdb
