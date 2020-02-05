@@ -1,0 +1,8 @@
+﻿@model LeagueLibrary.Models.SummonerModel
+@{
+    var iconUri = $"https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/{Model.ProfileIconId}.jpg";
+}
+
+<img src="@iconUri"/>
+
+<h2>Summoner Level: @Model.SummonerLevel</h2>

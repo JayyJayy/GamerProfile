@@ -1,46 +1,42 @@
-﻿@model OverwatchLibrary.Models.UserModel
+﻿@model LeagueLibrary.Models.RequestModel
 @using GamerProfileWebApplication
 
 @{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <div class="container">
-        @using (Html.BeginForm("Stats", "Overwatch", FormMethod.Post))
-        {
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <p>
-                            <h3>@Html.LabelFor(m => m.UserName, "Username")</h3>
-                            @Html.TextBoxFor(m => m.UserName)
-                        </p>
-                    </div>
-                    <div class="col-sm">
-                        <p>
-                            <h3>@Html.LabelFor(m => m.RegionSelect, "Region")</h3>
-                            @Html.DropDownList("Region", new SelectList(Enum.GetValues(typeof(Constants.Region))), "Select Region", new { @class = "form-control" })
-                        </p>
-                    </div>
-                    <div class="col-sm">
-                        <p>
-                            <h3>@Html.LabelFor(m => m.PlatformSelect, "Platform")</h3>
-                            @Html.DropDownList("Platform", new SelectList(Enum.GetValues(typeof(Constants.Platform))), "Select Platform", new { @class = "form-control" })
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm">
-                    </div>
-                    <div class="col-sm">
-                        <input type="submit" name="saveButton" value="Find" />
-                    </div>
-                    <div class="col-sm">
-                    </div>
-                </div>
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+
+        <div class="row">
+            <div class="col-md-12">
+                <a asp-action="Login" asp-controller="Account" class="btn btn-default">Log In with Battle.net</a>
             </div>
-        }
+        </div>
+
+
+        @*<div class="container">
+            @using (Html.BeginForm("Summoner", "League", FormMethod.Post))
+            {
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm">
+                            <p>
+                                <label class="h3" asp-for="SummonerName"></label>
+                                <input asp-for="SummonerName" />
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm">
+                        </div>
+                        <div class="col-sm">
+                            <input type="submit" name="saveButton" value="Find" />
+                        </div>
+                        <div class="col-sm">
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>*@
     </div>
-</div>

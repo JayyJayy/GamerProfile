@@ -6,9 +6,9 @@ namespace OverwatchLibrary.Objects
     public class Playtime
     {
         [JsonProperty("quickplay")]
-        public DateTimeOffset? Quickplay { get; set; }
+        public string Quickplay { get; set; }
 
         [JsonProperty("competitive")]
-        public DateTimeOffset? Competitive { get; set; }
+        public string Competitive { get; set; }
     }
 }

@@ -4,16 +4,26 @@
     ViewData["Title"] = "Stats";
 }
 
-@(await Html.PartialAsync("Partials/_BaseStats", Model))
 
 @{
-    if (!Model.Private)
+    if (Model.Username != null)
     {
+        <partial name="Partials/_BaseStats"
+                 model="Model"/>
 
+        if (!Model.Private)
+        {
+        <partial name="Partials/_Games"
+            model="Model" />
+        }
+        else
+        {
+            <h2>Your profile is set to private to see stats please make it public.</h2>
+        }
     }
     else
     {
-        <h2>Your profile is set to private to see stats please make it public.</h2>
+        <h2>@Model.Message</h2>
     }
 }
 

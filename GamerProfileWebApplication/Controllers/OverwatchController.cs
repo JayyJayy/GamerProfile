@@ -12,6 +12,11 @@ namespace GamerProfileWebApplication.Controllers
     {
         private readonly ApiClient _client = new ApiClient(new Uri("http://owapi.io"));
 
+        public IActionResult Index()
+        {
+            return View();
+        }
+
         [HttpPost("Stats")]
         public async Task<IActionResult> Stats(string username, string platform, string region)
         {

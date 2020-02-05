@@ -4,6 +4,67 @@
     "D:\\GamerProfile\\OverwatchApiTests\\OverwatchApiTests.csproj": {}
   },
   "projects": {
+    "D:\\GamerProfile\\BlizzardLibrary\\BlizzardLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GamerProfile\\BlizzardLibrary\\BlizzardLibrary.csproj",
+        "projectName": "BlizzardLibrary",
+        "projectPath": "D:\\GamerProfile\\BlizzardLibrary\\BlizzardLibrary.csproj",
+        "packagesPath": "C:\\Users\\JayyJ\\.nuget\\packages\\",
+        "outputPath": "D:\\GamerProfile\\BlizzardLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JayyJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "BlizzardCSharp": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\GamerProfile\\CoreApiClient\\CoreApiClient.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -96,6 +157,9 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
+              "D:\\GamerProfile\\LeagueLibrary\\LeagueLibrary.csproj": {
+                "projectPath": "D:\\GamerProfile\\LeagueLibrary\\LeagueLibrary.csproj"
+              },
               "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj": {
                 "projectPath": "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj"
               }
@@ -110,6 +174,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -121,6 +191,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -155,8 +228,14 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
+              "D:\\GamerProfile\\BlizzardLibrary\\BlizzardLibrary.csproj": {
+                "projectPath": "D:\\GamerProfile\\BlizzardLibrary\\BlizzardLibrary.csproj"
+              },
               "D:\\GamerProfile\\CoreApiLibrary\\CoreApiLibrary.csproj": {
                 "projectPath": "D:\\GamerProfile\\CoreApiLibrary\\CoreApiLibrary.csproj"
+              },
+              "D:\\GamerProfile\\LeagueLibrary\\LeagueLibrary.csproj": {
+                "projectPath": "D:\\GamerProfile\\LeagueLibrary\\LeagueLibrary.csproj"
               },
               "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj": {
                 "projectPath": "D:\\GamerProfile\\OverwatchLibrary\\OverwatchLibrary.csproj"
@@ -173,6 +252,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "BlizzardCSharp": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -210,6 +293,67 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GamerProfile\\LeagueLibrary\\LeagueLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GamerProfile\\LeagueLibrary\\LeagueLibrary.csproj",
+        "projectName": "LeagueLibrary",
+        "projectPath": "D:\\GamerProfile\\LeagueLibrary\\LeagueLibrary.csproj",
+        "packagesPath": "C:\\Users\\JayyJ\\.nuget\\packages\\",
+        "outputPath": "D:\\GamerProfile\\LeagueLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JayyJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

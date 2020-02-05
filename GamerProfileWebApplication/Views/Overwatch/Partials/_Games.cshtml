@@ -1,3 +1,49 @@
 ﻿@model OverwatchLibrary.Models.ProfileModel
 
-<div class="r"
+@{ 
+    var comp = Model.Games.Competitive;
+    comp.WinRate = Model.WinRatioCalculator(comp.Won, comp.Lost);
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h4>
+                Quickplay games won: @(Model.Games.Quickplay.Won)
+            </h4>
+        </div>
+        <div class="col">
+            <div class="container">
+                <h4>Competative</h4>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Won</th>
+                            <th scope="col">Lost</th>
+                            <th scope="col">Draw</th>
+                            <th scope="col">Winrate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">@(comp.Won)</th>
+                            <td>@(comp.Lost)</td>
+                            <td>@(comp.Draw)</td>
+                            @{
+                                if (comp.WinRate != null)
+                                {
+                                    <td>@(comp.WinRate)</td>
+                                }
+                            }
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col">
+            <h3>
+            </h3>
+        </div>
+    </div>
+</div>

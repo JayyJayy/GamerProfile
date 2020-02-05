@@ -1,0 +1,26 @@
+﻿@model GamerProfileWebApplication.Models.DiabloModel
+
+<div class="container">
+    @using (Html.BeginForm("Profile", "Diablo", FormMethod.Post))
+    {
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <p>
+                        <label class="h3" asp-for="@Model.RequestModel.Account">Battle Tag</label>
+                        <input asp-for="@Model.RequestModel.Account" />
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                </div>
+                <div class="col-sm">
+                    <input type="submit" name="saveButton" value="Find" />
+                </div>
+                <div class="col-sm">
+                </div>
+            </div>
+        </div>
+    }
+</div>

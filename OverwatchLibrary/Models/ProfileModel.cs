@@ -33,5 +33,14 @@ namespace OverwatchLibrary.Models
 
         [JsonProperty("levelFrame")]
         public Uri LevelFrame { get; set; }
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        public decimal WinRatioCalculator(long? wins, long? loses)
+        {
+            decimal ratio = Convert.ToDecimal(wins) / Convert.ToDecimal(loses);
+            decimal test = 31 / 8;
+            return Math.Round(ratio, 2);
+        }
     }
 }

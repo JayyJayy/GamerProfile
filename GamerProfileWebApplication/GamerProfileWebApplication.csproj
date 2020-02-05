@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BlizzardCSharp" Version="1.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
@@ -16,8 +17,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlizzardLibrary\BlizzardLibrary.csproj" />
     <ProjectReference Include="..\CoreApiLibrary\CoreApiLibrary.csproj" />
+    <ProjectReference Include="..\LeagueLibrary\LeagueLibrary.csproj" />
     <ProjectReference Include="..\OverwatchLibrary\OverwatchLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Account\" />
   </ItemGroup>
 
 </Project>

@@ -63,7 +63,7 @@ namespace CoreApiClient
             return JsonConvert.DeserializeObject<T1>(data);
         }
 
-        private Uri CreateRequestUri(string relativePath, string queryString = "")
+        private Uri CreateRequestUri(string relativePath, string queryString)
         {
             var endpoint = new Uri(BaseEndpoint, relativePath);
             var uriBuilder = new UriBuilder(endpoint) {Query = queryString};

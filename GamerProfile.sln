@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchApiTests", "Overwa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamerProfileWebApplication", "GamerProfileWebApplication\GamerProfileWebApplication.csproj", "{5D7382E6-CB4C-4626-A041-1B7573C98DCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverwatchLibrary", "OverwatchLibrary\OverwatchLibrary.csproj", "{5C9EE0BD-E2D1-4C35-8948-8EC4AC4940E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverwatchLibrary", "OverwatchLibrary\OverwatchLibrary.csproj", "{5C9EE0BD-E2D1-4C35-8948-8EC4AC4940E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreApiLibrary", "CoreApiLibrary\CoreApiLibrary.csproj", "{91725F47-9567-49BE-BD45-01D59E372F42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApiLibrary", "CoreApiLibrary\CoreApiLibrary.csproj", "{91725F47-9567-49BE-BD45-01D59E372F42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeagueLibrary", "LeagueLibrary\LeagueLibrary.csproj", "{CC5836A7-BEB6-4520-A9A4-A7EF3A8A63ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlizzardLibrary", "BlizzardLibrary\BlizzardLibrary.csproj", "{43901657-E34E-4D88-9EC2-6C57E80EA32D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{91725F47-9567-49BE-BD45-01D59E372F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91725F47-9567-49BE-BD45-01D59E372F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91725F47-9567-49BE-BD45-01D59E372F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5836A7-BEB6-4520-A9A4-A7EF3A8A63ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5836A7-BEB6-4520-A9A4-A7EF3A8A63ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5836A7-BEB6-4520-A9A4-A7EF3A8A63ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5836A7-BEB6-4520-A9A4-A7EF3A8A63ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43901657-E34E-4D88-9EC2-6C57E80EA32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43901657-E34E-4D88-9EC2-6C57E80EA32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43901657-E34E-4D88-9EC2-6C57E80EA32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43901657-E34E-4D88-9EC2-6C57E80EA32D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
